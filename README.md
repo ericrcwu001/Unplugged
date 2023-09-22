@@ -1,3 +1,5 @@
+```
+
 The top 5 words in text one and their frequencies are:
 1) it’s: 10
 2) polly: 6
@@ -14,3 +16,7 @@ The top 8 words in text two and their frequencies are:
 5) pet: 3
 5) got: 3
 5) nailed: 3
+
+```
+
+
