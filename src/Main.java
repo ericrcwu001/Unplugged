@@ -4,6 +4,8 @@ public class Main {
         String commonWords = "src/commonWords.txt";
         String textOne = "src/textOne.txt";
         String textTwo = "src/textTwo.txt";
+        String textThree = "src/Animal+Farm.txt";
+        String textFour = "src/Nineteen+eighty-four.txt";
 
         // Text One
         Counter counter = new Counter(commonWords, textOne);
@@ -22,6 +24,28 @@ public class Main {
         topFiveFrequencies = counter2.getTopFiveFrequencies();
 
         System.out.println("The top " + topFiveWords.length + " words in text two and their frequencies are:");
+        tCnt = 0;
+        printTopFive(topFiveWords, topFiveFrequencies, tCnt);
+
+        System.out.println();
+
+        // Animal Farm
+        Counter counter3 = new Counter(commonWords, textThree);
+        topFiveWords = counter3.getTopFiveWords();
+        topFiveFrequencies = counter3.getTopFiveFrequencies();
+
+        System.out.println("The top " + topFiveWords.length + " words in Animal Farm and their frequencies are:");
+        tCnt = 0;
+        printTopFive(topFiveWords, topFiveFrequencies, tCnt);
+
+        System.out.println();
+
+        // 1984
+        Counter counter4 = new Counter(commonWords, textFour);
+        topFiveWords = counter4.getTopFiveWords();
+        topFiveFrequencies = counter4.getTopFiveFrequencies();
+
+        System.out.println("The top " + topFiveWords.length + " words in 1984 and their frequencies are:");
         tCnt = 0;
         printTopFive(topFiveWords, topFiveFrequencies, tCnt);
     }

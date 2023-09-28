@@ -15,6 +15,20 @@ The top 8 words in text two and their frequencies are:
 5) pet: 3
 5) got: 3
 5) nailed: 3
+
+The top 5 words in Animal Farm and their frequencies are:
+1) animals: 242
+2) farm: 164
+3) napoleon: 146
+4) snowball: 106
+4) animal: 106
+
+The top 5 words in 1984 and their frequencies are:
+1) winston: 430
+2) even: 299
+3) into: 277
+4) party: 275
+5) any: 228
 ```
 
 
